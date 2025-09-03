@@ -1,0 +1,533 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 8060 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/mikke/Documents/GitHub/DADIU-Unity-Editor-Tools
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+1861
+-job-worker-count
+1
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/mikke/Documents/GitHub/DADIU-Unity-Editor-Tools
+C:/Users/mikke/Documents/GitHub/DADIU-Unity-Editor-Tools
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22500]  Target information:
+
+Player connection [22500]  * "[IP] 172.30.56.247 [Port] 0 [Flags] 2 [Guid] 3942149252 [EditorId] 3942149252 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L96IEBLM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22500]  * "[IP] 10.10.2.183 [Port] 0 [Flags] 2 [Guid] 3942149252 [EditorId] 3942149252 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-L96IEBLM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22500] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22500] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 199.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mikke/Documents/GitHub/DADIU-Unity-Editor-Tools/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4007 MB
+    Driver:   32.0.15.7247
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009239 seconds.
+- Loaded All Assemblies, in  1.821 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.424 seconds
+Domain Reload Profiling: 2239ms
+	BeginReloadAssembly (326ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (852ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (524ms)
+			TypeCache.Refresh (521ms)
+				TypeCache.ScanAssembly (498ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.864 seconds
+Refreshing native plugins compatible for Editor in 8.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.949 seconds
+Domain Reload Profiling: 12802ms
+	BeginReloadAssembly (6307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (206ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (60ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (3219ms)
+		LoadAssemblies (2192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1925ms)
+			TypeCache.Refresh (1718ms)
+				TypeCache.ScanAssembly (1563ms)
+			BuildScriptInfoCaches (187ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2951ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1727ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (25ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (1431ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 11.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3411 unused Assets / (207.9 KB). Loaded Objects now: 3996.
+Memory consumption went from 104.5 MB to 104.3 MB.
+Total: 49.657700 ms (FindLiveObjects: 1.002100 ms CreateObjectMapping: 0.987900 ms MarkObjects: 35.575400 ms  DeleteObjects: 12.072200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15342.192844 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item47.png
+  artifactKey: Guid(e56470d9cac9c7648b0b5f3e583d5f05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item47.png using Guid(e56470d9cac9c7648b0b5f3e583d5f05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc705f23dd13890f96817e932f018f4a') in 0.6039345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item5.png
+  artifactKey: Guid(98c9f78a900a1894494ff2db17bd332f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item5.png using Guid(98c9f78a900a1894494ff2db17bd332f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bd2f84df47cb5c8533e4dfe552263e6') in 0.0367199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006677 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item7.png
+  artifactKey: Guid(d6c6cea00f6ef704a87433807f2dfe74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item7.png using Guid(d6c6cea00f6ef704a87433807f2dfe74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cc0c901a7952467576c0562b973759a') in 0.0375229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (5).prefab
+  artifactKey: Guid(42a8948a685c20e4b9138366b687005b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (5).prefab using Guid(42a8948a685c20e4b9138366b687005b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bc28826bae9c570a5f410324d30641e') in 0.0439255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item75.png
+  artifactKey: Guid(f4641f02c40d9c54a8838c9fcaba3230) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item75.png using Guid(f4641f02c40d9c54a8838c9fcaba3230) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a96020b529fa3029c8675e31daf91b7') in 0.0390211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Prefabs/UI/Item.prefab
+  artifactKey: Guid(c9d9a330d13896e4196e18affaffde9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Prefabs/UI/Item.prefab using Guid(c9d9a330d13896e4196e18affaffde9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f551047fee1eb4afb4d7cf6a7d4e50ea') in 0.2149046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item77.png
+  artifactKey: Guid(837775d4b0abbe641aff5b67d5dbd3ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item77.png using Guid(837775d4b0abbe641aff5b67d5dbd3ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '747982c6ab167ff0bed21f854b6ee965') in 0.0569228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Prefabs/UI/Shop UI - Canvas.prefab
+  artifactKey: Guid(a5fd375f734fa094fb9ba5fd0b807bec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Prefabs/UI/Shop UI - Canvas.prefab using Guid(a5fd375f734fa094fb9ba5fd0b807bec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a61f11babec44f2ec7ce3880cf6ba821') in 0.1292059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 236
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item74.png
+  artifactKey: Guid(83b96354caa670143b648806742534bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item74.png using Guid(83b96354caa670143b648806742534bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7bfd5cd1c528a1439a9eab11fcdb8c9') in 0.0814643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item79.png
+  artifactKey: Guid(132fd5e79fd525740adf134792299dc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item79.png using Guid(132fd5e79fd525740adf134792299dc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86073566ad002fb9eb5ac196c35ef16e') in 0.0899148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item91.png
+  artifactKey: Guid(10c58161f329bcb4499959af1ead4474) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item91.png using Guid(10c58161f329bcb4499959af1ead4474) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cedbb0fde659e0d125336d8af597f974') in 0.124476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (405).prefab
+  artifactKey: Guid(026d18b31a4f93044833d01891a5ff49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (405).prefab using Guid(026d18b31a4f93044833d01891a5ff49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc5a3ed9d96ff70dec28be2011dce11c') in 0.7287459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004311 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (469).prefab
+  artifactKey: Guid(a248e20b08d35fe4babc769e38c9fb0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (469).prefab using Guid(a248e20b08d35fe4babc769e38c9fb0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f183c797121e123175e8b90ff0470702') in 0.1794174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001228 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (16).prefab
+  artifactKey: Guid(06fa77dd3fd727945865daebbb592e37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (16).prefab using Guid(06fa77dd3fd727945865daebbb592e37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '544443d7915b2e76bec44335ce8e42f8') in 0.037155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010780 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (23).prefab
+  artifactKey: Guid(24879cfa5478e9d47b5b424b03a887ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (23).prefab using Guid(24879cfa5478e9d47b5b424b03a887ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd0206d608d7abcf37671cf494849d67') in 0.0522597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012810 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (243).prefab
+  artifactKey: Guid(aa9069929ec0a0a488094842ca5a2aaf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (243).prefab using Guid(aa9069929ec0a0a488094842ca5a2aaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5750561784b252183843cc8e5207f147') in 0.0663306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003008 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (426).prefab
+  artifactKey: Guid(39e22abd4ed61314c9252ded565b82ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (426).prefab using Guid(39e22abd4ed61314c9252ded565b82ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24a7da5324d6833398cd3f5ac3855f4f') in 0.0952821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002008 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (178).prefab
+  artifactKey: Guid(0e35642e79fbcd44a8c6a0476b6aeffc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (178).prefab using Guid(0e35642e79fbcd44a8c6a0476b6aeffc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '609ba177092dccf8ed959d75c3991cfe') in 0.0655917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002904 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (222).prefab
+  artifactKey: Guid(97e929b7b14777d4fb8eb733e846876f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (222).prefab using Guid(97e929b7b14777d4fb8eb733e846876f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31b8e3bb5d936bdf1cc840fbe1285c52') in 0.074028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (476).prefab
+  artifactKey: Guid(3d04a74397fae79419111035722b8b9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (476).prefab using Guid(3d04a74397fae79419111035722b8b9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '431f2b82b60e4a771785d201a572c34a') in 0.0731603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (168).prefab
+  artifactKey: Guid(886aaa53dd0836748ade9c0ba79b3cac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (168).prefab using Guid(886aaa53dd0836748ade9c0ba79b3cac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0c430548e4d61aa11a3161cdad217d3') in 0.0868726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (235).prefab
+  artifactKey: Guid(6bbafcc119fdc9240a1448b308875d2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (235).prefab using Guid(6bbafcc119fdc9240a1448b308875d2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f906bfd0cf98ae41204ac334ced0e78c') in 0.0528163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/chest1.png
+  artifactKey: Guid(c537f28a3760fdd4fa73cab084a6e549) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/chest1.png using Guid(c537f28a3760fdd4fa73cab084a6e549) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18c962b7b55811936ed03f01033570f7') in 0.088787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (428).prefab
+  artifactKey: Guid(a2fe1faf83f225544acbbe26f9bdf694) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (428).prefab using Guid(a2fe1faf83f225544acbbe26f9bdf694) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '190a2e73a98e8d5b2527a67342a1c8dd') in 0.1324805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001991 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (183).prefab
+  artifactKey: Guid(aa0af1e39f1a1464ba024b9f9ea5e933) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (183).prefab using Guid(aa0af1e39f1a1464ba024b9f9ea5e933) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '998cbfd0a8364246fe0ea55caa3904b3') in 0.0791853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (356).prefab
+  artifactKey: Guid(73dc56218bb3a574c9955e514c6028ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (356).prefab using Guid(73dc56218bb3a574c9955e514c6028ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37cb72b713a2de2e2fed29f1faf982cf') in 0.0702428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018747 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (499).prefab
+  artifactKey: Guid(9910816437316e6489456a4e22dcf9dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (499).prefab using Guid(9910816437316e6489456a4e22dcf9dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cc04f83c4a7c3abbf70106aa3a5082a') in 0.0551988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001161 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (437).prefab
+  artifactKey: Guid(2a49b0948683d6a43a531aadd791e776) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (437).prefab using Guid(2a49b0948683d6a43a531aadd791e776) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbf19b8cf0802e26a9e31eb1c8a482ca') in 0.0513563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item30.png
+  artifactKey: Guid(ddadc30ece3a45b44bc6e25768d08a62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item30.png using Guid(ddadc30ece3a45b44bc6e25768d08a62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1e4bb32522c955f2d7a0b51ea6b1980') in 0.0606637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000715 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item20.png
+  artifactKey: Guid(0b41ee5996ff00a42a0ae9c5e9b97175) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item20.png using Guid(0b41ee5996ff00a42a0ae9c5e9b97175) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcc55a1bed8fe06f866baa3e3c8c1215') in 0.0964579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (225).prefab
+  artifactKey: Guid(becc299445307784cb1367ad36051ccd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (225).prefab using Guid(becc299445307784cb1367ad36051ccd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2bfe070241204cb6970e22374043b5b') in 0.0839089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004274 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (37).prefab
+  artifactKey: Guid(9a0b99bfe2bb25546b0c8d2373af4bd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (37).prefab using Guid(9a0b99bfe2bb25546b0c8d2373af4bd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97bc12d17d326ceeca8658c3832e4ffd') in 0.0573464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (388).prefab
+  artifactKey: Guid(dee7fe1a71c2c0840bd964e2bf3af45e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (388).prefab using Guid(dee7fe1a71c2c0840bd964e2bf3af45e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5978744369f093010b23222ce0020d6f') in 0.0607498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (291).prefab
+  artifactKey: Guid(67bd4481028ad144cbca5f315fe81fe4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (291).prefab using Guid(67bd4481028ad144cbca5f315fe81fe4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb2bbb1c6215685e71ba90a8bbda80f5') in 0.0500667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (114).prefab
+  artifactKey: Guid(cf9e86c5b3adc854e9a15de648c983a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (114).prefab using Guid(cf9e86c5b3adc854e9a15de648c983a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd9b9853ae8f644dc5d5c8e17f04b88c') in 0.0638417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002161 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (373).prefab
+  artifactKey: Guid(9982179e28bb82b4591ffcf0bcb132e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (373).prefab using Guid(9982179e28bb82b4591ffcf0bcb132e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01b810103b85446eed458c331dc36ad7') in 0.0635025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (422).prefab
+  artifactKey: Guid(1d908b5dcba922140ab297b8c1770a4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (422).prefab using Guid(1d908b5dcba922140ab297b8c1770a4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cffe24592e2d1e9d91a718928972e94') in 0.0580988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034231 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (348).prefab
+  artifactKey: Guid(8ebc81261f08fa742938108b717a4085) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (348).prefab using Guid(8ebc81261f08fa742938108b717a4085) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '769948e525f0611f2fa138f5638b048c') in 0.093914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (402).prefab
+  artifactKey: Guid(ed64e2f4a576d554796083014c58c1dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (402).prefab using Guid(ed64e2f4a576d554796083014c58c1dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '943f681aa9d97f8f590f63ca6eeac461') in 0.0478234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (313).prefab
+  artifactKey: Guid(4b2b4a70335755a46b951cec3cc4fec6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (313).prefab using Guid(4b2b4a70335755a46b951cec3cc4fec6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55c7ef630cba3d8bb0dfbec049d1fad2') in 0.0481469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (463).prefab
+  artifactKey: Guid(b6de967d4ba2b4e42ad69470c6325ad6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (463).prefab using Guid(b6de967d4ba2b4e42ad69470c6325ad6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1916c36af6f2121dfc2d5b7df1e7d68d') in 0.0395198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item100.png
+  artifactKey: Guid(e3fe22e67b111414abf60cfd5f122c8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Example Games/Scriptable Objects/Fantasy Shop Game/Graphics/Classic 100/item100.png using Guid(e3fe22e67b111414abf60cfd5f122c8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eec4564a9138e61a53437d5d763371b8') in 0.0805011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002523 seconds.
+  path: Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (246).prefab
+  artifactKey: Guid(0d38e5a89113be04abc37e5cf652f74a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/3. Custom Editor Extensions/CEE6 ProgressBar/OldPrefabs/GameObject (246).prefab using Guid(0d38e5a89113be04abc37e5cf652f74a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a00d6d417bd526b4280c0e901f25bb31') in 0.059087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
